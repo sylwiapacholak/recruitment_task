@@ -223,6 +223,9 @@ p {
         }
             
         .rectangle1 {
+            position: relative;
+            left: 40px;
+            top: -110px;
             width: 150px;
             height: 20px;
             transform: translate(400px,0px);
@@ -231,6 +234,9 @@ p {
         }
             
         .rectangle2 {
+            position: relative;
+            left: 40px;
+            top: -90px;
             width: 150px;
             height: 20px;
             transform: translate(400px,20px);
@@ -239,12 +245,12 @@ p {
         }
             
         .rectangleAbc {
-            position: fixed;
-            left: 78%;
-            top: 15%;
+            position: static;
+            right: 30px;
+            top: 20px;
             width: 300px;
             height: 600px;
-            transform: translate(-10px,0px);
+            transform: translate(-20px,-400px);
             border-style: solid;
             float: right;
             background-color: white;
@@ -258,7 +264,9 @@ p {
         }
             
         .circle {
-            position: initial;
+            position: relative;
+            left: 380px;
+            top: -240px;
             width: 100px;
             height: 100px;
             transform: translate(250px,82px);
